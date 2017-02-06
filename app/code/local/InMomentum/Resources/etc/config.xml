@@ -1,0 +1,17 @@
+<?xml version="1.0"?>
+<config>
+    <modules>
+        <InMomentum_Resources>
+            <version>1.0.0</version>
+        </InMomentum_Resources>
+    </modules>
+    <frontend>
+        <layout>
+            <updates>
+                <inmomentum_resources>
+                    <file>resources.xml</file>
+                </inmomentum_resources>
+            </updates>
+        </layout>
+    </frontend>
+</config>

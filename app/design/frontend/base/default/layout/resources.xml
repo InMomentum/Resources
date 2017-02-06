@@ -1,0 +1,24 @@
+<?xml version="1.0"?>
+
+<layout version="0.1.0">
+    <default>
+        <reference name="head">
+            <action method="addItem">
+                <type>skin_css</type>
+                <name>resources/css/stylesheet.css</name>
+                <params/>
+                <if>
+                    <![CDATA[<!--[]><!-->]]>
+                </if>
+            </action>
+            <action method="addItem">
+                <type>skin_js</type>
+                <name>resources/js/javascript.js</name>
+                <params/>
+                <if>
+                    <![CDATA[<!--[]><!-->]]>
+                </if>
+            </action>
+        </reference>
+    </default>
+</layout>
